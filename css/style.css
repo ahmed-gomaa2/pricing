@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Pricing {
+    width: 100%;
+    height: 100vh;
+    background-color: #F8FAFC;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+.Pricing__header {
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.Pricing__underline {
+    width: 60px;
+    height: 4px;
+    background: #3F69D9;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Pricing__options {
+    width: 65.4%;
+    margin-top: 50px;
+    padding-top: 50px;
+    display: block;
+    margin: 50px auto;
+}
+
+.Pricing__option {
+    float: left;
+    width: 330px;
+    height: 400px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .7);
+}
+
+.Pricing__option-header {
+    margin-bottom: 15px;
+}
+
+.Pricing__option-price {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.Pricing__pro .Pricing__option-price {
+    color: white !important;
+}
+
+.Pricing__option-price sub {
+    margin-left: 2px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+hr {
+    border-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.Pricing__option-description {
+    margin-bottom: 20px;
+}
+
+.Pricing__pro {
+    background-color: #1E2338;
+    color: white;
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.Pricing__pro * {
+    color: rgb(247, 242, 242);
+}
+
+.Pricing__pro .Pricing__option-header {
+    color: rgb(65, 65, 237);;
+}
+
+.Pricing__option-feature {
+    margin-bottom: 7px;
+}
+
+.Pricing__option-feature i {
+    margin-right: 5px;
+    color: rgb(15, 233, 15);
+    font-size: 13px;
+}
+
+.Pricing__getstarted {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #1E2338;
+    color: white;
+    border: none;
+    display: inline-block;
+    margin: auto;
+    border-radius: 2px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 17px;
+    cursor: pointer;
+    outline: 1px solid #1E2338;
+    transition: all ease-in-out 0.2s;
+}
+
+.Pricing__getstarted:hover {
+    outline-offset: 5px;
+    transform: scale(0.95) translateY(5px);
+}
+
+.Pricing__pro .Pricing__getstarted {
+    background-color: #707EEF;
+    color: white;
+    outline: 1px solid #707EEF;
+}
+
+.Pricing__pupular {
+    position: absolute;
+    top: 25px;
+    right: -70px;
+    padding: 0px 15px;
+    background: #58CE9E;
+    width: 200px;
+    text-align: center;
+    transform: rotate(45deg);
+    font-size: 14px;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    z-index: 2;
+}
+
+.Pricing__clearfix {
+    clear: both;
+}
